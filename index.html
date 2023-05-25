@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/
+  <link rel=" preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Poppins:wght@300;500;800&display=swap"
+    rel="stylesheet">
+
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    body {
+      background-color: hwb(216 5% 78%);
+      font-family: 'Outfit';
+    }
+
+
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      transition: 0.3s;
+      width: 30%;
+      background-color: hsl(215, 32%, 27%);
+      border-radius: 10px;
+    }
+
+    .card:hover {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+    }
+
+    .container {
+      padding: 2px 16px;
+      color: hsl(217, 54%, 11%);
+      border-radius: 10px;
+    }
+
+    .valor {
+      color: rgb(4, 236, 236);
+      padding-left: 2px;
+      height: 100%;
+
+    }
+
+    .name {
+      color: hsl(215, 51%, 70%);
+    }
+
+    .descricao {
+      color: hsl(215, 51%, 70%);
+    }
+
+    .days {
+      color: hsl(215, 51%, 70%);
+    }
+
+    .menu {
+      color: aqua;
+      text-align: center;
+    }
+
+    #menu {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      gap:30px width 90px;
+      height: 20px;
+      padding: 8px;
+      border-radius: 10px;
+    }
+
+    #foto {
+      padding: 30;
+
+    }
+
+    .center {
+      margin: auto;
+      width: 25%;
+      padding: 10px;
+    }
+
+    .este {
+      padding: -10;
+      margin: right;
+
+    }
+
+    .row {
+      color: hsl(215, 51%, 70%);
+      ;
+    }
+
+    #card {
+      border-radius: 10px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="card center" id="card"  style="width: 300px">
+    <img src="src/images/image-equilibrium.jpg" alt="Equilibrium" style="width: 100%">
+    <div class="container">
+      <h3><b class="name">Equilibrium #3429</b></h3>
+      <p class="descricao"> Our Equilibrium collection promotes balance and calm.</p>
+
+      <ol class="menu" id="menu">
+        <ul class="valor">
+          <img src="src/images/icon-ethereum.svg" alt="ethereum" style="width: px67;">
+          0,041 ETH
+        </ul>
+
+        <ul class="days"> <img src="src/images/icon-clock.svg" alt="days" style="width:15px;"> 3 days left </ul>
+
+      </ol>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 col-md-6">
+        <p class="icon"><img src="src/images/image-avatar.png" alt="avatar" style="width:30px;" id="foto"></p>
+      </div>
+      <div style="margin-left: 33px; margin-top: -45px;" class="col-sm-6 col-md-6">
+        <p class="">Creation of Jules Wyvern</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
